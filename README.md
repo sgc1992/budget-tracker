@@ -40,4 +40,4 @@ When brought back online:
   * Node.js
   * IndexedDB
 
-## Screenshot![](./images/screenshot.PNG "Description goes here")
+## Screenshot![](./develop/images/screenshot.PNG "Description goes here")
