@@ -137,8 +137,6 @@ function sendTransaction(isAdding) {
   .catch(err => {
     // fetch failed, so save in indexed db
     saveRecord(transaction);
-//if the save request fails create a function saveRecord
-//week 18 activity 20-25
 
     // clear form
     nameEl.value = "";

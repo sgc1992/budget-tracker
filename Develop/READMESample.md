@@ -1,47 +1,43 @@
 # Summary
+The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
-In this project I am creating a workout tracker with Mongo database with a Mongoose schema and handle routes with Express.
+
 ## Table of Contents
 - [User Story](#userstory)
 - [Business Context](#businesscontext)
 - [Acceptance Criteria](#acceptancecriteria)
 - [Technology Used](#technologyused)
-- [Deployed Website:](#deployedwebsite)
 - [Screenshot](#screenshot)
 
 
 ## User Story
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+* AS AN avid traveller
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling
 
 ## Business Context
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+Adding functionality to our existing Budget Tracker application to allow for offline access and functionality.
 
 ## Acceptance Criteria
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+Offline Functionality:
 
-The user should be able to:
+  * Enter deposits offline
 
-  * Add exercises to the most recent workout plan.
+  * Enter expenses offline
 
-  * Add new exercises to a new workout plan.
+When brought back online:
 
-  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
-
-  * View the total duration of each workout from the past seven workouts on the `stats` page.
+  * Offline entries should be added to tracker.
 
 ## Technology Used
 
   * MongoDB
   * Mongoose
   * Express.js
-  * Node.js 
-
-## Deployed Website
-
-https://ur-fitness-tracker.herokuapp.com/?id=60e8cb7a43b31d0015962041
-
+  * Node.js
+  * IndexedDB
 
 ## Screenshot![](./images/screenshot.PNG "Description goes here")
